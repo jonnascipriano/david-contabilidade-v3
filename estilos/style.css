@@ -13,6 +13,9 @@
     box-sizing: border-box;
 }
 
+body{
+}
+
 a{
     color: var(--cor5);
     text-decoration: none;
@@ -42,6 +45,8 @@ header{
 
     padding: 10px;
     border-bottom: 1px solid var(--cor1);
+    
+
 }
 
 .logo{
@@ -124,7 +129,8 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 
-    border-radius: 0 0 200px 0;
+    border-radius: 0 0 300px 0;
+    box-shadow: 15px 40px 80px -40px var(--cor4);
 
     font-family: "Plus Jakarta Sans";
 }
@@ -181,6 +187,14 @@ nav ul li a:hover{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+
+    margin-top: 40px;
+}
+
+.servicos-home hr{
+    width: 80%;
+    margin: auto;
+    border-color: var(--cor5);
 }
 
 .servicos-home-negocio{
@@ -190,7 +204,7 @@ nav ul li a:hover{
 
 .servicos-home-negocio h3{
     color: var(--cor3);
-    text-shadow: 0px 1px 1px var(--cor2);
+    text-shadow: 0px 1px 0px var(--cor4);
 }
 
 .servicos-home-negocio p{
@@ -207,7 +221,6 @@ nav ul li a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
     padding: 0 50px;
 }
 
@@ -223,6 +236,8 @@ nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    margin: 0 20px;
 }
 
 .caixas h2{
@@ -249,7 +264,7 @@ nav ul li a:hover{
 
     font-family: "Plus Jakarta Sans";
 
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .atendimento h2{
@@ -267,6 +282,11 @@ nav ul li a:hover{
     color: var(--cor4);
 }
 
+.combinado{
+    margin: auto;
+    width: 450px;
+}
+
 .destaque{
     font-weight: bold;
 }
@@ -277,12 +297,12 @@ nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 
     margin-bottom: 50px;
 }
 
 .atendimento-botoes button{
+    margin: 0 5px;
     padding: 10px;
     font-family: Inter;
     cursor: pointer;
@@ -301,6 +321,108 @@ nav ul li a:hover{
     background-color: var(--cor7);
     color: var(--cor4);
 }
+
+
+.suporte-crescimento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Montserrat;
+    margin: 50px 0;
+}
+
+.suporte-crescimento span{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.suporte-titulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+    width: 60%;
+}
+
+.suporte-titulo h2{
+    color: var(--cor4);
+    text-shadow: 0px 1px 1px var(--cor2);
+    font-size: 2.3em;
+}
+
+.suporte-titulo p{
+    margin: auto;
+
+    width: 70%;
+    color: var(--cor6);
+    font-size: 1em;
+}
+
+.servicos-suporte-container{
+    margin: 50px 0;
+}
+
+.servicos-suporte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.servicos-suporte div{
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 20px;
+
+    border-color: var(--cor4);
+}
+
+.servicos-suporte div h4{
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+.servicos-suporte div p{
+    font-size: .8em;
+}
+
+.servicos-suporte div a{
+    display: inline-flex;
+    align-self: flex-start;
+    font-size: .9em;
+    text-decoration: underline;
+}
+
+.suporte-crescimento img{
+    width: 80px;
+}
+
+.bpo-financeiro-suporte{
+    border-bottom: 1px solid;
+}
+
+.simples-nacional-suporte{
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.regime-tributario-suporte{
+    border-bottom: 1px solid;
+}
+
+.decimo-salario-suporte{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
 
 
 /**********************************************************************************/
