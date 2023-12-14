@@ -43,13 +43,16 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
 
+    width: 100%;
+
     padding: 10px;
     border-bottom: 1px solid var(--cor1);
-    
 
+    background-color: white;
 }
 
-.logo{
+
+.logo a{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -424,6 +427,20 @@ nav ul li a:hover{
 }
 
 
+/*********************** CONTATO.HTML ************************/
+
+
+.contato{
+    width: 100%;
+    height: 90vh;
+
+    background: url(https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 /**********************************************************************************/
                             /*COMEÇO DO FOOTER*/
@@ -474,12 +491,14 @@ footer .container{
     flex-wrap: wrap;
     align-items: center;
 
-    gap: 5px;
-
     color: var(--cor1);
     text-shadow: 2px 2px 5px var(--cor6);
 
     transition: .3s;
+}
+
+.redes-sociais-footer ul li a p{
+    padding: 0 5px;
 }
 
 .redes-sociais-footer ul li a img{
