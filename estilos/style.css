@@ -29,6 +29,7 @@ a{
     --cor5: #031C45;
     --cor6: #000;
     --cor7: #FFF;
+    --cor8: #F44E00;
 }
 
 
@@ -46,7 +47,7 @@ header{
     width: 100%;
 
     padding: 10px;
-    border-bottom: 1px solid var(--cor1);
+    border-bottom: 1px groove var(--cor8);
 
     background-color: var(--cor7);
 }
@@ -110,12 +111,12 @@ nav ul li{
 nav ul li a{
     color: var(--cor3);
     transition: .3s;
+    font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: var(--cor1);
+    color: var(--cor8);
     transform: translate(-2px, -2px);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
 }
 
 
@@ -212,7 +213,7 @@ nav ul li a:hover{
 .servicos-home hr{
     width: 80%;
     margin: auto;
-    border-color: var(--cor5);
+    border-color: var(--cor8);
 }
 
 .servicos-home-negocio{
@@ -399,7 +400,7 @@ nav ul li a:hover{
 
     padding: 20px;
 
-    border-color: var(--cor4);
+    border-color: var(--cor8);
 }
 
 .servicos-suporte div h4{
@@ -441,12 +442,67 @@ nav ul li a:hover{
     border-left: 1px solid;
 }
 
+.par-suc-background{
+    background-image: url(../assets/imagens/background-6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.par-suc{
+    width: 100%;
+    height: 200px;
+
+    color: var(--cor4);
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: Inter;
+}
+
+.par-suc p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.par-suc h3{
+    font-size: 2.2em;
+}
+
+.par-suc a{
+    width: 150px;
+    height: 5vh;
+    margin: 15px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+
+    font-family: Inter;
+
+    border-radius: 15px;
+
+    background-color: var(--cor4);
+    color: var(--cor7);
+
+    cursor: pointer;
+}
+
 
 /*********************** CONTATO.HTML ************************/
 
 .contato-container{
-    background-image: linear-gradient(to right, var(--cor4) 10%, transparent 95%), url(../assets/imagens/background-contato3.jpg);
-    background-position: right center;
+    background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
+    background-position: center 30%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -462,6 +518,7 @@ nav ul li a:hover{
     margin-left: 150px;
 
     font-family: Inter;
+    transition: .2s;
 }
 
 body#contato div.contato .logo{
@@ -473,9 +530,9 @@ body#contato div.contato .logo span{
 }
 
 .lista-contato h2{
-    color: var(--cor1);
+    color: var(--cor7);
     font-size: 3em;
-    background-image: linear-gradient(to right, var(--cor2) 10%, var(--cor3) 90%);
+    background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -503,12 +560,17 @@ body#contato div.contato .logo span{
     align-items: center;
 
     margin: 20px 0;
-    padding: 10px 50px;
+    padding-left: 30px;
+
+    width: 350px;
+    height: 10vh;
 
     border-radius: 30px;
 
     background-color: white;
     color: var(--cor4);
+
+    transition: .2s;
 }
 
 .lista-contato ul li p{
@@ -517,6 +579,14 @@ body#contato div.contato .logo span{
     font-family: Montserrat;
     text-shadow: 0px 1px 1px var(--cor1);
 }
+
+.lista-contato ul li a:hover{
+    background-color: var(--cor8);
+    color: var(--cor7);
+    box-shadow: 0px 10px 50px var(--cor4);
+    font-weight: bold;
+}
+
 
 .lista-contato ul li a img{
     width: 50px;
