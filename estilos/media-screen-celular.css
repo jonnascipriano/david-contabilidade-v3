@@ -83,6 +83,7 @@ Grandes Telas: acima de 1200px */
         flex-direction: row;
         flex-wrap: wrap;
         list-style: none;
+        margin: 20px 0 0 0;
     }
 
     nav ul li{
@@ -112,7 +113,7 @@ Grandes Telas: acima de 1200px */
         height: 90vh;
 
         background: url(../assets/imagens/david-2-background.png);
-        background-position: 40% center;
+        background-position: 50% center;
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -187,7 +188,6 @@ Grandes Telas: acima de 1200px */
     .servicos-home{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         text-align: center;
 
         margin-top: 40px;
@@ -201,7 +201,7 @@ Grandes Telas: acima de 1200px */
 
     .servicos-home-negocio{
         font-family: "Plus Jakarta Sans";
-        margin: 20px;
+        margin: 20px auto;
     }
 
     .servicos-home-negocio h3{
@@ -285,7 +285,7 @@ Grandes Telas: acima de 1200px */
 
     .combinado{
         margin: auto;
-        width: 250px;
+        width: 350px;
     }
 
     .destaque{
@@ -330,6 +330,8 @@ Grandes Telas: acima de 1200px */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         font-family: Montserrat;
         margin: 50px auto;
     }
@@ -401,6 +403,8 @@ Grandes Telas: acima de 1200px */
     }
 
     .suporte-crescimento img{
+        display: block;
+        margin: auto;
         width: 80px;
     }
 
@@ -434,7 +438,6 @@ Grandes Telas: acima de 1200px */
 
     .par-suc{
         width: 100%;
-        height: 200px;
 
         color: var(--cor4);
 
@@ -446,21 +449,26 @@ Grandes Telas: acima de 1200px */
         align-items: center;
 
         font-family: Inter;
+
+        padding: 20px;
     }
 
     .par-suc p{
-        font-size: 1.2em;
-        font-weight: bold;
+        font-size: 1.1em;
+        font-weight: 600;
+        margin: 20px 0;
     }
 
     .par-suc h3{
-        font-size: 2.2em;
+        margin: 20px 0;
+        font-size: 2em;
+        font-weight: 900;
     }
 
     .par-suc a{
         width: 150px;
         height: 5vh;
-        margin: 15px 0;
+        margin: 20px 0;
 
         display: flex;
         flex-direction: row;
@@ -722,10 +730,13 @@ Grandes Telas: acima de 1200px */
         margin-top: 50px;
     }
 
+    .redes-sociais-footer{
+        order: 3;
+    }
 
     .redes-sociais-footer ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         list-style: none;
     }
@@ -748,6 +759,7 @@ Grandes Telas: acima de 1200px */
 
     .redes-sociais-footer ul li a p{
         padding: 0 5px;
+        display: none;
     }
 
     .redes-sociais-footer ul li a img{
@@ -760,11 +772,16 @@ Grandes Telas: acima de 1200px */
         color: var(--cor3);
     }
 
+    .logo-redes{
+        order: 2;
+    }
+
     .logo-redes .logo{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        margin: 10px 0;
     }
 
     .logo-redes hr{
@@ -797,6 +814,7 @@ Grandes Telas: acima de 1200px */
         align-items: flex-start;
 
         gap: 20px;
+        order: 1;
     }
 
 
@@ -804,6 +822,7 @@ Grandes Telas: acima de 1200px */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 30px 0;
     }
 
     .nav-footer h3{
