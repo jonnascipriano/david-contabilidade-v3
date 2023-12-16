@@ -394,6 +394,7 @@ Grandes Telas: acima de 1200px */
         margin: 20px;
         font-size: 2em;
         text-align: center;
+        color: var(--cor5);
     }
 
     .servicos-suporte div p{
