@@ -378,6 +378,12 @@ Grandes Telas: acima de 1200px */
     }
 
     .servicos-suporte div{
+        border-top: 1px solid var(--cor4);
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px black;
+
+        margin: 10px 0;
+
         width: 100%;
 
         padding: 20px;
