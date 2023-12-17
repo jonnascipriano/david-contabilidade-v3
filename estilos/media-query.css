@@ -150,7 +150,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos span{
-        color: var(--cor1);
+        color: var(--cor8);
 
         font-size: .8em;
     }
@@ -1004,7 +1004,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos span{
-        color: var(--cor1);
+        color: var(--cor8);
 
         font-size: .8em;
     }
@@ -1838,7 +1838,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos span{
-        color: var(--cor1);
+        color: var(--cor8);
 
         font-size: .8em;
     }
