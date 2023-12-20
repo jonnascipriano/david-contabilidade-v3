@@ -135,6 +135,8 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
 
         margin: auto;
+        transition: .4s;
+
 
     }
 
@@ -389,7 +391,7 @@ Grandes Telas: acima de 1200px */
 
         margin: 10px 0;
 
-        width: 100%;
+        width: 80%;
 
         padding: 20px;
         transition: .2s;
@@ -397,13 +399,13 @@ Grandes Telas: acima de 1200px */
 
     .servicos-suporte div h4{
         margin: 20px;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
         color: var(--cor5);
     }
 
     .servicos-suporte div p{
-        font-size: 1em;
+        font-size: .9em;
     }
 
     .servicos-suporte div a{
@@ -649,7 +651,7 @@ Grandes Telas: acima de 1200px */
 
     .contato-container{
         background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
-        background-position: center 30%;
+        background-position: 60% 30%;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -659,10 +661,9 @@ Grandes Telas: acima de 1200px */
         flex-direction: column;
         justify-content: center;
 
-        width: 400px;
+        width: 90%;
         height: 90vh;
-
-        margin-left: 150px;
+        margin: auto;
 
         font-family: Inter;
         transition: .2s;
@@ -676,13 +677,15 @@ Grandes Telas: acima de 1200px */
         color: var(--cor7);
     }
 
-    .lista-contato h2{
-        color: var(--cor7);
-        font-size: 3em;
-        background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
+    .lista-contato h1{
+        color: var(--cor8);
+        font-size: 2em;
+        text-shadow: 0px 2px 10px black;
+        width: 75%;
+        /* background-image: linear-gradient(to right, var(--cor8) 10%, var(--cor8) 90%);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
     }
 
     .lista-contato ul{
@@ -706,15 +709,17 @@ Grandes Telas: acima de 1200px */
         flex-wrap: wrap;
         align-items: center;
 
-        margin: 20px 0;
-        padding-left: 30px;
+        font-size: .6em;
 
-        width: 350px;
-        height: 10vh;
+        margin: 10px 0;
+        padding: 0 30px;
+
+        width: 250px;
+        height: 8vh;
 
         border-radius: 30px;
 
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.500);
         color: var(--cor4);
 
         transition: .2s;
@@ -734,9 +739,8 @@ Grandes Telas: acima de 1200px */
         font-weight: bold;
     }
 
-
     .lista-contato ul li a img{
-        width: 50px;
+        width: 30px;
     }
 
 
@@ -761,7 +765,7 @@ Grandes Telas: acima de 1200px */
 
     footer .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -1019,6 +1023,8 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
 
         margin: auto;
+
+        transition: .4s;
     }
 
     .boas-vindas-textos h1,
@@ -1170,6 +1176,7 @@ Grandes Telas: acima de 1200px */
     .atendimento p{
         margin: auto;
         margin-top: 0px;
+        margin-bottom: 20px;
         width: 40%;
 
         color: var(--cor4);
@@ -1271,6 +1278,9 @@ Grandes Telas: acima de 1200px */
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        align-self: flex-start;
+
+        max-width: 300px;
 
         padding: 20px;
 
@@ -1294,7 +1304,6 @@ Grandes Telas: acima de 1200px */
         font-size: .9em;
         text-decoration: underline;
         color: var(--cor8);
-        border: 1px solid;
     }
 
     .suporte-crescimento img{
@@ -1530,7 +1539,7 @@ Grandes Telas: acima de 1200px */
 
     .contato-container{
         background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
-        background-position: center 30%;
+        background-position: 50% 20%;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -1540,30 +1549,32 @@ Grandes Telas: acima de 1200px */
         flex-direction: column;
         justify-content: center;
 
-        width: 400px;
+        width: 90%;
         height: 90vh;
 
-        margin-left: 150px;
+        margin: auto;
 
         font-family: Inter;
         transition: .2s;
     }
 
-    body#contato div.contato .logo{
+    /* body#contato div.contato .logo{
         display: inline-flex;
     }
 
     body#contato div.contato .logo span{
         color: var(--cor7);
-    }
+    } */
 
-    .lista-contato h2{
-        color: var(--cor7);
+    .lista-contato h1{
+        color: var(--cor8);
+        max-width: 75%;
         font-size: 3em;
-        background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
+        text-shadow: 0px 2px 10px black;
+        /* background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
     }
 
     .lista-contato ul{
@@ -1588,9 +1599,9 @@ Grandes Telas: acima de 1200px */
         align-items: center;
 
         margin: 20px 0;
-        padding-left: 30px;
+        padding: 0 30px;
 
-        width: 350px;
+        max-width: 350px;
         height: 10vh;
 
         border-radius: 30px;
@@ -1642,9 +1653,8 @@ Grandes Telas: acima de 1200px */
 
     footer .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-around;
         align-items: center;
         width: 100%;
         height: 100%;
@@ -1652,10 +1662,13 @@ Grandes Telas: acima de 1200px */
         margin-top: 50px;
     }
 
+    .redes-sociais-footer{
+        order: 3;
+    }
 
     .redes-sociais-footer ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         list-style: none;
     }
@@ -1677,6 +1690,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .redes-sociais-footer ul li a p{
+        display: none;
         padding: 0 5px;
     }
 
@@ -1688,6 +1702,11 @@ Grandes Telas: acima de 1200px */
         transform: translate(-2px, -2px);
         text-shadow: 2px 2px 10px var(--cor6);
         color: var(--cor3);
+    }
+
+    .logo-redes{
+        order: 2;
+        padding: 50px 0;
     }
 
     .logo-redes .logo{
@@ -1727,6 +1746,7 @@ Grandes Telas: acima de 1200px */
         align-items: flex-start;
 
         gap: 20px;
+        order: 1;
     }
 
 
@@ -1762,7 +1782,7 @@ Grandes Telas: acima de 1200px */
         font-size: .7em;
         margin: 15px;
         display: flex;
-        align-self: flex-end;
+        align-self: center;
     }
 
 
@@ -2037,6 +2057,7 @@ Grandes Telas: acima de 1200px */
     .atendimento p{
         margin: auto;
         margin-top: 0px;
+        margin-bottom: 20px;
         width: 40%;
 
         color: var(--cor4);
@@ -2390,7 +2411,7 @@ Grandes Telas: acima de 1200px */
 
     .contato-container{
         background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
-        background-position: center 30%;
+        background-position: 50% 20%;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -2400,30 +2421,32 @@ Grandes Telas: acima de 1200px */
         flex-direction: column;
         justify-content: center;
 
-        width: 400px;
+        width: 90%;
         height: 90vh;
 
-        margin-left: 150px;
+        margin: auto;
 
         font-family: Inter;
         transition: .2s;
     }
 
-    body#contato div.contato .logo{
+    /* body#contato div.contato .logo{
         display: inline-flex;
     }
 
     body#contato div.contato .logo span{
         color: var(--cor7);
-    }
+    } */
 
-    .lista-contato h2{
-        color: var(--cor7);
+    .lista-contato h1{
+        color: var(--cor8);
+        width: 45%;
         font-size: 3em;
-        background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
+        text-shadow: 0px 2px 10px black;
+        /* background-image: linear-gradient(to right, var(--cor7) 10%, var(--cor3) 90%);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
     }
 
     .lista-contato ul{
@@ -2510,6 +2533,10 @@ Grandes Telas: acima de 1200px */
         height: 100%;
 
         margin-top: 50px;
+    }
+
+    body#contato footer .redes-sociais-footer{
+        display: none;
     }
 
 
