@@ -2516,8 +2516,8 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-color: var(--cor4);
-        color: var(--cor1);
+        background-color: var(--cor8);
+        color: var(--cor4);
         
         font-family: "Plus Jakarta Sans";
         
@@ -2558,8 +2558,8 @@ Grandes Telas: acima de 1200px */
         flex-wrap: wrap;
         align-items: center;
 
-        color: var(--cor1);
-        text-shadow: 2px 2px 5px var(--cor6);
+        color: var(--cor7);
+        text-shadow: 0px 1px 5px var(--cor6);
 
         transition: .3s;
     }
@@ -2575,7 +2575,7 @@ Grandes Telas: acima de 1200px */
     .redes-sociais-footer ul li a:hover{
         transform: translate(-2px, -2px);
         text-shadow: 2px 2px 10px var(--cor6);
-        color: var(--cor3);
+        color: var(--cor4);
     }
 
     .logo-redes .logo{
@@ -2597,14 +2597,16 @@ Grandes Telas: acima de 1200px */
 
     .logo-redes .logo-titulo-principal{
         font-size: 3em;
+        color: var(--cor4);
     }
 
     .logo-redes .logo-subtitulo{
         font-size: 1.2em;
+        color: var(--cor4);
     }
 
     .logo-redes .texto-footer{
-        color: var(--cor3);
+        color: var(--cor4);
         text-align: center;
     }
 
@@ -2643,19 +2645,19 @@ Grandes Telas: acima de 1200px */
     }
 
     .nav-footer ul li a:hover{
-        color: var(--cor3);
+        color: var(--cor4);
     }
 
     div#creditos{
         font-size: .7em;
         margin: 15px;
         display: flex;
-        align-self: flex-end;
+        align-self: center;
     }
 
 
     #creditos a{
-        color: var(--cor3);
+        color: var(--cor7);
     }
 
 }
