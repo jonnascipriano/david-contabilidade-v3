@@ -15,6 +15,7 @@
 
 body{
     width: 100%;
+    background-color: var(--cor7);
 }
 
 a{
@@ -22,15 +23,5 @@ a{
     text-decoration: none;
 }
 
-:root{
-    --cor1: #016CE2;
-    --cor2: #4A81C0;
-    --cor3: #35ACFF;
-    --cor4: #081430;
-    --cor5: #002b70;
-    --cor6: #000;
-    --cor7: #FFF;
-    --cor8: #F44E00;
-}
 
 

@@ -15,6 +15,8 @@ Grandes Telas: acima de 1200px */
     --cor8: #F44E00;
 }
 
+
+
 @media screen and (max-width: 600px) {
 
     /**********************************************************************************/
@@ -126,66 +128,59 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos{
-        width: 100%;
-        height: 80%;
+        width: 95%;
+        height: 45%;
+
 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: center;
 
         margin: auto;
 
-        padding-top: 30px;
         
         transition: .4s;
 
-
-
     }
 
-    .boas-vindas-textos div h1,
-    .boas-vindas-textos div p{
+    .boas-vindas-textos h1,
+    .boas-vindas-textos p{
         /* background-image: linear-gradient(to right, var(--cor4), var(--cor1));
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
-        text-align: center;
-        margin: auto;
         transition: .6s;
 
     }
 
-    .boas-vindas-textos div h1{
-        font-size: 1.8em;
+    .boas-vindas-textos h1{
+        font-size: 2.5em;
         font-weight: 900;
 
         color: var(--cor4);
-
     }
 
-    .boas-vindas-textos div p{
-        width: 70%;
+    .boas-vindas-textos p{
+        width: 60%;
 
         font-size: 1.2em;
     }
 
-    .boas-vindas-textos div a{
-        width: 250px;
-        height: 8vh;
-        margin: 0px 0;
+    .boas-vindas-textos a{
+        width: 150px;
+        height: 5vh;
+        margin: 10px 0;
 
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-size: 1.2em;
+        font-size: .9em;
 
         font-family: Inter;
 
         border-radius: 5px;
-        border: 1px solid var(--cor7);
 
         background-color: var(--cor4);
         color: var(--cor7);
@@ -756,7 +751,10 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-color: var(--cor4);
+        background-image: url(../assets/imagens/background-12-2.png);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
         color: var(--cor1);
         
         font-family: "Plus Jakarta Sans";
@@ -920,7 +918,6 @@ Grandes Telas: acima de 1200px */
         width: 100%;
 
         padding: 10px;
-        border-bottom: 1px groove var(--cor8);
 
         background-color: var(--cor7);
     }
@@ -973,6 +970,9 @@ Grandes Telas: acima de 1200px */
         flex-direction: row;
         flex-wrap: wrap;
         list-style: none;
+
+        
+        margin: 20px 0 0 0;
     }
 
     nav ul li{
@@ -1644,7 +1644,10 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-color: var(--cor4);
+        background-image: url(../assets/imagens/background-12-2.png);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
         color: var(--cor1);
         
         font-family: "Plus Jakarta Sans";
@@ -1869,7 +1872,7 @@ Grandes Telas: acima de 1200px */
     }
 
     nav ul li a{
-        color: var(--cor3);
+        color: var(--cor1);
         transition: .3s;
         font-weight: bold;
     }
@@ -2516,8 +2519,11 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-color: var(--cor8);
-        color: var(--cor4);
+        background-image: url(../assets/imagens/background-12-2.png);
+        background-position: center 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        color: var(--cor3);
         
         font-family: "Plus Jakarta Sans";
         
@@ -2575,7 +2581,7 @@ Grandes Telas: acima de 1200px */
     .redes-sociais-footer ul li a:hover{
         transform: translate(-2px, -2px);
         text-shadow: 2px 2px 10px var(--cor6);
-        color: var(--cor4);
+        color: var(--cor3);
     }
 
     .logo-redes .logo{
@@ -2583,12 +2589,13 @@ Grandes Telas: acima de 1200px */
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        color: var(--cor7);
     }
 
     .logo-redes hr{
         width: 100%;
         margin: 10px 0;
-        border-color: var(--cor4);
+        border-color: var(--cor3);
     }
 
     .logo-redes .logo img{
@@ -2597,16 +2604,16 @@ Grandes Telas: acima de 1200px */
 
     .logo-redes .logo-titulo-principal{
         font-size: 3em;
-        color: var(--cor4);
+        color: var(--cor1);
     }
 
     .logo-redes .logo-subtitulo{
         font-size: 1.2em;
-        color: var(--cor4);
+        color: var(--cor1);
     }
 
     .logo-redes .texto-footer{
-        color: var(--cor4);
+        color: var(--cor1);
         text-align: center;
     }
 
@@ -2653,6 +2660,7 @@ Grandes Telas: acima de 1200px */
         margin: 15px;
         display: flex;
         align-self: center;
+        color: var(--cor2);
     }
 
 
