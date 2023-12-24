@@ -113,7 +113,7 @@ Grandes Telas: acima de 1200px */
         width: 100%;
         height: 90vh;
 
-        background: url(../assets/imagens/david-2-background.png);
+        background: url(../assets/imagens/david-2-background.webp);
         background-position: 50% center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -502,7 +502,7 @@ Grandes Telas: acima de 1200px */
     body#servicos .servicos-titulo{
         width: 100%;
         height: 50vh;
-        background: linear-gradient(to right, var(--cor4) 0%, transparent 155%, var(--cor4) 95%), url(../assets/imagens/background-8.jpg);
+        background: linear-gradient(to right, var(--cor4) 0%, transparent 155%, var(--cor4) 95%), url(../assets/imagens/background-8.webp);
         background-position: 20% 45%;
         background-repeat: no-repeat;
         background-size: 160%;
@@ -646,7 +646,7 @@ Grandes Telas: acima de 1200px */
 
 
     .contato-container{
-        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
+        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.webp);
         background-position: 60% 30%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -751,7 +751,7 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-image: url(../assets/imagens/background-12-2.png);
+        background-image: url(../assets/imagens/background-12-2.webp);
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -1001,7 +1001,7 @@ Grandes Telas: acima de 1200px */
         width: 100%;
         height: 90vh;
 
-        background: url(../assets/imagens/david-2-background.png);
+        background: url(../assets/imagens/david-2-background.webp);
         background-position: 20% center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1320,19 +1320,6 @@ Grandes Telas: acima de 1200px */
         max-width: 600px;
     }
 
-    .bpo-financeiro-suporte{
-    }
-
-    .simples-nacional-suporte{
-    }
-
-    .regime-tributario-suporte{
-    }
-
-    .decimo-salario-suporte{
-    }
-
-
     .par-suc-background{
         background-image: url(../assets/imagens/background-6.webp);
         background-position: center center;
@@ -1396,7 +1383,7 @@ Grandes Telas: acima de 1200px */
     body#servicos .servicos-titulo{
         width: 100%;
         height: 50vh;
-        background: linear-gradient(to right, var(--cor4) 5%, transparent 155%, var(--cor4) 95%), url(../assets/imagens/background-8.jpg);
+        background: linear-gradient(to right, var(--cor4) 5%, transparent 155%, var(--cor4) 95%), url(../assets/imagens/background-8.webp);
         background-position: center 45%;
         background-repeat: no-repeat;
         background-size: 120%;
@@ -1539,7 +1526,7 @@ Grandes Telas: acima de 1200px */
 
 
     .contato-container{
-        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
+        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.webp);
         background-position: 50% 20%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1644,7 +1631,7 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-image: url(../assets/imagens/background-12-2.png);
+        background-image: url(../assets/imagens/background-12-2.webp);
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -1891,7 +1878,7 @@ Grandes Telas: acima de 1200px */
         width: 100%;
         height: 90vh;
 
-        background: url(../assets/imagens/david-2-background.png);
+        background: url(../assets/imagens/david-2-background.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2272,7 +2259,7 @@ Grandes Telas: acima de 1200px */
     body#servicos .servicos-titulo{
         width: 100%;
         height: 50vh;
-        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%),  url(../assets/imagens/background-8.jpg);
+        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%),  url(../assets/imagens/background-8.webp);
         background-position: center 45%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2414,7 +2401,7 @@ Grandes Telas: acima de 1200px */
 
 
     .contato-container{
-        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.jpg);
+        background-image: linear-gradient(to right, var(--cor4) 0%, transparent 55%, var(--cor4) 099%), url(../assets/imagens/background-1.webp);
         background-position: 50% 20%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2519,7 +2506,7 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        background-image: url(../assets/imagens/background-12-2.png);
+        background-image: url(../assets/imagens/background-12-2.webp);
         background-position: center 100%;
         background-size: cover;
         background-attachment: fixed;
