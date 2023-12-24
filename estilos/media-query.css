@@ -2652,7 +2652,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .nav-footer ul li a:hover{
-        color: var(--cor4);
+        color: var(--cor3);
     }
 
     div#creditos{
