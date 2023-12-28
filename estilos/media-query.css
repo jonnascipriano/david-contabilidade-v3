@@ -1882,10 +1882,8 @@ Grandes Telas: acima de 1200px */
         height: 90vh;
 
         background: url(../assets/imagens/david-4-background.webp);
-        background-position: center 30%;
-        background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
-        background-attachment: local;
 
         box-shadow: 0px 10px 20px -8px var(--cor4);
 
@@ -1895,15 +1893,16 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos{
-        width: 90%;
-        height: 100%;
+
+        max-width: 90%;
+        height: 90%;
+        margin: auto;
 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
 
-        margin: auto;
     }
 
     .boas-vindas-textos h1,
@@ -1921,6 +1920,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos h1{
+        width: 600px;
         font-size: 4.5em;
         font-weight: bold;
 
@@ -1929,9 +1929,9 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos p{
-        width: 50%;
+        width: 400px;
 
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .boas-vindas-textos a{
@@ -2607,12 +2607,12 @@ Grandes Telas: acima de 1200px */
 
     .logo-redes .logo-titulo-principal{
         font-size: 3em;
-        color: var(--cor1);
+        color: var(--cor7);
     }
 
     .logo-redes .logo-subtitulo{
         font-size: 1.2em;
-        color: var(--cor1);
+        color: var(--cor7);
     }
 
     .logo-redes .texto-footer{
