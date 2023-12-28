@@ -59,14 +59,14 @@ Grandes Telas: acima de 1200px */
         font-weight: bold;
         font-size: 1.7em;
 
-        color: var(--cor1);
+        color: var(--cor5);
     }
 
     .logo-subtitulo{
         font-family: Inter;
         font-size: .7em;
 
-        color: var(--cor2);
+        color: var(--cor5);
     }
 
     nav{
@@ -945,14 +945,14 @@ Grandes Telas: acima de 1200px */
         font-weight: bold;
         font-size: 1.7em;
 
-        color: var(--cor1);
+        color: var(--cor5);
     }
 
     .logo-subtitulo{
         font-family: Inter;
         font-size: .7em;
 
-        color: var(--cor2);
+        color: var(--cor5);
     }
 
     nav{
@@ -1446,7 +1446,7 @@ Grandes Telas: acima de 1200px */
         flex-wrap: wrap;
         align-items: center;
 
-        max-width: 700px;
+        max-width: 400px;
         border: none;
         border-radius: 0 0 20px 20px;
 
@@ -1719,10 +1719,13 @@ Grandes Telas: acima de 1200px */
 
     .logo-redes .logo-titulo-principal{
         font-size: 3em;
+        color: var(--cor7);
     }
 
     .logo-redes .logo-subtitulo{
         font-size: 1.2em;
+        color: var(--cor7);
+
     }
 
     .logo-redes .texto-footer{
@@ -1825,14 +1828,14 @@ Grandes Telas: acima de 1200px */
         font-weight: bold;
         font-size: 1.7em;
 
-        color: var(--cor1);
+        color: var(--cor5);
     }
 
     .logo-subtitulo{
         font-family: Inter;
         font-size: .7em;
 
-        color: var(--cor2);
+        color: var(--cor5);
     }
 
     nav{
@@ -1879,9 +1882,10 @@ Grandes Telas: acima de 1200px */
         height: 90vh;
 
         background: url(../assets/imagens/david-4-background.webp);
-        background-position: center center;
+        background-position: center 30%;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: local;
 
         box-shadow: 0px 10px 20px -8px var(--cor4);
 
@@ -1891,7 +1895,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos{
-        width: 80%;
+        width: 90%;
         height: 100%;
 
         display: flex;
@@ -1917,7 +1921,7 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos h1{
-        font-size: 3em;
+        font-size: 4.5em;
         font-weight: bold;
 
         color: var(--cor4);
@@ -1925,30 +1929,40 @@ Grandes Telas: acima de 1200px */
     }
 
     .boas-vindas-textos p{
-        width: 40%;
+        width: 50%;
 
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .boas-vindas-textos a{
-        width: 150px;
-        height: 5vh;
+        width: 300px;
+        height: 80px;
         margin: 15px 0;
 
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-size: .9em;
+        font-size: 1.5em;
 
-        font-family: Inter;
+        font-family: Montserrat;
 
         border-radius: 5px;
 
+        transition: .3s;
+
         background-color: var(--cor4);
         color: var(--cor7);
+        box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.747);
 
         cursor: pointer;
+    }
+
+    .boas-vindas-textos a:hover{
+        background-color: var(--cor8);
+        transform: translate(5px, -5px);
+        box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.747);
+
     }
 
     .servicos-home{
@@ -1986,11 +2000,13 @@ Grandes Telas: acima de 1200px */
     }
 
     .servicos-caixa{
+        margin: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         padding: 0 50px;
+        width: 800px;
     }
 
     .servicos-caixa a{
@@ -2365,8 +2381,8 @@ Grandes Telas: acima de 1200px */
     }
 
     section div.servicos a{
-        width: 150px;
-        height: 5vh;
+        width: 250px;
+        height: 60px;
         margin: 15px 0;
 
         display: flex;
@@ -2374,24 +2390,24 @@ Grandes Telas: acima de 1200px */
         justify-content: center;
         align-items: center;
 
-        font-size: .9em;
+        font-size: 1.2em;
         font-weight: bold;
         font-family: Inter;
 
         border-radius: 50px;
-        border: 2px solid var(--cor8);
+        background-color: var(--cor4);
 
-        color: var(--cor4);
+        color: var(--cor7);
 
         cursor: pointer;
 
-        transition: .1s;
+        transition: .3s;
     }
 
     section div.servicos a:hover{
         border: 2px solid var(--cor4);
         color: var(--cor7);
-        background-color: var(--cor4);
+        background-color: var(--cor8);
     }
 
 
