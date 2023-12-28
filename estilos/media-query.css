@@ -2329,7 +2329,6 @@ Grandes Telas: acima de 1200px */
         background-image: url(../assets/imagens/wallpaperflare.com_wallpaper.jpg);
         background-size: cover;
         background-attachment: fixed;
-
     }
 
     .caixa-servico{
@@ -2338,7 +2337,7 @@ Grandes Telas: acima de 1200px */
         flex-wrap: wrap;
         align-items: center;
 
-        width: 400px;
+        width: 450px;
         border: none;
         border-radius: 0 0 20px 20px;
 
@@ -2362,28 +2361,32 @@ Grandes Telas: acima de 1200px */
     }
 
     section div.servicos{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: start;
+        width: 100%;
+        height: 600px;
         box-shadow: none;
+        justify-content: center;
     }
 
     section div.servicos h2{
-        font-size: 2.5em;
+        max-width: 800px;
+        font-size: 3em;
         padding: 20px 0;
         color: var(--cor4);
     }
 
     section div.servicos p{
-        font-size: 1em;
+        max-width: 800px;
+        font-size: 1.2em;
     }
 
     section div.servicos a{
         width: 250px;
         height: 60px;
-        margin: 15px 0;
+        margin: 15px auto;
+
+        position: relative;
+        top: 0px;
+        right: 270px;
 
         display: flex;
         flex-direction: row;
@@ -2402,6 +2405,10 @@ Grandes Telas: acima de 1200px */
         cursor: pointer;
 
         transition: .3s;
+    }
+
+    section div.servicos img{
+        width: 500px;
     }
 
     section div.servicos a:hover{
