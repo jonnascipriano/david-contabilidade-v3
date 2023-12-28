@@ -631,6 +631,10 @@ Grandes Telas: acima de 1200px */
         transition: .1s;
     }
 
+    section div.servicos img{
+        display: none;
+    }
+
     section div.servicos a:hover{
         border: 2px solid var(--cor4);
         color: var(--cor7);
@@ -1510,6 +1514,10 @@ Grandes Telas: acima de 1200px */
         cursor: pointer;
 
         transition: .1s;
+    }
+
+    section div.servicos img{
+        display: none;
     }
 
     section div.servicos a:hover{
