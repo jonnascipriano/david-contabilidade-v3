@@ -844,10 +844,13 @@ Grandes Telas: acima de 1200px */
 
     .logo-redes .logo-titulo-principal{
         font-size: 3em;
+        color: var(--cor7);
     }
 
     .logo-redes .logo-subtitulo{
         font-size: 1.2em;
+        color: var(--cor7);
+
     }
 
     .logo-redes .texto-footer{
